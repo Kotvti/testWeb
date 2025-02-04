@@ -7,12 +7,7 @@ const DropdownMenu = () => {
     const [menuText, setMenuText] = useState('');
     const [loading, setLoading] = useState(true);
   
-    console.log('Supabase URL:', process.env.NEXT_PUBLIC_SUPABASE_URL);
-    console.log('Supabase Key:', process.env.NEXT_PUBLIC_SUPABASE_KEY);
-    console.log('Supabase URL2:', process.env.DB_SUPABASE_URL);
-    console.log('Supabase Key2:', process.env.DB_SUPABASE_KEY);
-    console.log('TTTTT!!!!!TTTT', '123');
-    console.log('TTTTT!!!!!TTTT');
+
 
     useEffect(() => {
       const fetchMenuItems = async () => {
